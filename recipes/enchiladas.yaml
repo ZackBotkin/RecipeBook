@@ -1,0 +1,15 @@
+ingredients:
+    - poblano pepper:
+        amount: 1
+    - roma tomato:
+        amount: 1
+description: some enchiladas from hello fresh
+serves: 2
+steps:
+    - oven to 475 degrees
+    - more
+    - eat
+tags:
+    - mexican
+    - spicy
+    - vegetarian

@@ -10,7 +10,11 @@ class Ingredient(object):
 class Recipe(object):
 
     def __init__(self, recipe_file):
+        self.ingredients = []
         self._init_from_file(recipe_file)
+
+    def _ingredients_from_yaml(self, ingredients):
+        pass
 
     def _init_from_file(self, recipe_file):
         with open(recipe_file) as file:
@@ -21,7 +25,7 @@ class Recipe(object):
 class Fridge(object):
 
     def __init__(self, fridge_file):
-        self.fridge = {}
+        self.ingredients = {}
         self._init_from_file(fridge_file)
 
     def _ingredient_from_yaml(self, _key, _yaml):
@@ -35,12 +39,8 @@ class Fridge(object):
                 file, Loader= yaml.FullLoader
             )
             for _key, _yaml in fridge_yaml.items():
-                if _key not in self.fridge:
-                    self.fridge[_key] = self._ingredient_from_yaml(_key, _yaml)
-
-    def print(self):
-        for _key, _yaml in self.fridge.items():
-            print(_key)
+                if _key not in self.ingredients:
+                    self.ingredients[_key] = self._ingredient_from_yaml(_key, _yaml)
 
     def get_missing_ingredients(self):
         pass
