@@ -1,0 +1,13 @@
+ingredients:
+    - name: flatbreads
+      amount: 2
+    - name: pineapple
+      amount: a lot
+description: a flatbread pizza from hello fresh
+serves: 2
+steps:
+    - open it up man
+tags:
+    - pizza
+    - bbq
+
