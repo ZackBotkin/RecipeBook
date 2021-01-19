@@ -1,6 +1,43 @@
-poblano pepper:
-    date aquired: 2020-01-01
-    amount left: 50%
+### canned stuff ###
 black beans:
-    date aquired: 2020-01-01
-    amount left: 7 oz
+    date added: 2020-01-01
+    amount: 7 oz
+lentils:
+    date added: 2020-01-01
+    amount: 3 bags
+
+### fish
+tuna:
+    date added: 2020-01-01
+    amount: 4 steaks
+    expires: 2020-06-01
+
+### vegetables ###
+lettuce:
+    date added: 2020-01-01
+    amount: 1 head
+    expires: 2020-02-01
+poblano pepper:
+    date added: 2020-01-01
+    amount: 50%
+    expires: 2020-02-01
+red onion:
+    date added: 2020-01-01
+    amount: 1
+    expires: 2020-02-01
+
+### condiments ###
+soy sauce:
+    date added: 2020-01-01
+    amount: 1 bottle
+    expires: soon
+
+### dairy ###
+half and half:
+    date added: 2020-01-01
+    amount: 1 container
+    expires: soon
+whole milk:
+    date added: 2020-01-01
+    amount: 1 gallon
+    expires: 2020-02-01

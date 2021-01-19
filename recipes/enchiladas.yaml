@@ -1,8 +1,10 @@
 ingredients:
-    - poblano pepper:
-        amount: 1
-    - roma tomato:
-        amount: 1
+    - name: poblano pepper
+      amount: 1
+    - name: roma tomato
+      amount: 1
+    - name: tortilla
+      amount: 6
 description: some enchiladas from hello fresh
 serves: 2
 steps:
