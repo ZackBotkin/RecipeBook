@@ -1,5 +1,5 @@
 import unittest
-from fridge import Item, Fridge
+from fridge import Ingredient, Fridge
 
 class TestItemsAndFridge(unittest.TestCase):
 
